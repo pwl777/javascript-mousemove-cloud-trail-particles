@@ -1,0 +1,26 @@
+/* ------ CSS3 - JavaScript - Animated Clouds ------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+
+#canvas1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+/* display: inline; */
+h1 {
+    font-family: 'Londrina Shadow', cursive; /* font-family: 'Londrina Solid', cursive; | font-family: 'Londrina Shadow', cursive;  */
+    font-size: 3.5rem;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    filter: drop-shadow(-1px 6px 3px rgba(28, 28, 28, 0.5));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
